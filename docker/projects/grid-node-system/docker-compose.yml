@@ -28,6 +28,7 @@ volumes:
     labels:
       civic-cloud.size: 2G
       civic-cloud.import.src: http-router:/usr/local/etc/haproxy
+      civic-cloud.import.src.1: https://github.com/lottspot/ops/archive/master.zip
   static-data:
 
 networks:
